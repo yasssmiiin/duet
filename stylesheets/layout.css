@@ -239,3 +239,39 @@ body {
   padding-left: 40px;
   margin-bottom: 24px;
 }
+
+.section-6 {
+  height: 1000px;
+  background-image: url("../images/bg-6.svg");
+}
+
+.archive {
+  padding-top: 128px;
+  padding-left: 200px;
+}
+
+.archive .label {
+  color: #cfe07a;
+  opacity: 1;
+}
+
+.archive .title {
+  color: #f6e9d6;
+  margin-top: 31.8px;
+}
+
+.archive-text {
+  color: #f6e9d6;
+  font-size: 19px;
+  opacity: 1;
+  line-height: 27.6px;
+  margin-top: 31.4px;
+}
+
+.archive-caption {
+  margin-left: 720px;
+  color: #f6e9d6;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-top: 520px;
+}
