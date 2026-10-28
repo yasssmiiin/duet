@@ -129,3 +129,23 @@ body {
 .reasons {
   margin-top: 50px;
 }
+
+.section-3 {
+  height: 860px;
+  background-image: url("../images/bg-3.svg");
+}
+
+.how {
+  padding-top: 108px;
+  padding-left: 200px;
+}
+
+.how .label {
+  color: #cfe07a;
+  opacity: 1;
+}
+
+.how .title {
+  color: #f6e9d6;
+  margin-top: 31.8px;
+}
