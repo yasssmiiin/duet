@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Rubik_Mono_One";
+  src: url("../fonts/RubikMonoOne-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "PT_Mono";
+  src: url("../fonts/PTMono-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}

@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  display: block;
+  margin: 0 auto; /* сверху и снизу 0 (убираем отступ браузера), слева и справа auto (сайт по центру) */
+  font-family:
+    "PT_Mono", monospace; /* основной шрифт сайта; запасной — любой моноширинный (все буквы одной ширины) */
+  background-color: #140a10;
+}
+
+.section-1 {
+  height: 1024px;
+  background-image: url("../images/bg-1.svg");
+}
+
+.menu a {
+  color: #f6e9d6;
+  text-decoration: none; /* убирает подчеркивание у ссылки */
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 39px; /* отступ снаружи справа: расстояние до соседа справа */
+}
+
+.menu {
+  display: inline-block;
+  vertical-align: middle; /* выравнивает по середине строки, на одну строку с соседями */
+  margin-left: 276px; /* отступ снаружи слева: расстояние до соседа слева */
+}
+
+.header {
+  padding-top: 22px; /* отступ внутри сверху */
+  padding-left: 120px; /* отступ внутри слева */
+}
+
+.header img {
+  vertical-align: middle;
+}
+
+.button {
+  vertical-align: middle;
+  background-color: #ec6c9b;
+  color: #140a10;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block; /* ссылка становится коробкой, чтобы работали отступы */
+  padding: 17.5px 39px;
+  border-radius: 26px; /* круглые края, половина высоты 52 */
+}
+
+.hero {
+  text-align: center; /* все внутри по центру */
+  padding-top: 200px;
+}
+
+.hero img {
+  width: 726.3px; /* ширина большого логотипа */
+}
+
+.subtitle {
+  color: #f6e9d6;
+  font-size: 22px;
+  opacity: 0.9;
+  margin-top: 67.8px;
+}
+
+.hero-text {
+  color: #f6e9d6;
+  font-size: 18px;
+  opacity: 0.6;
+  margin-top: 27.4px;
+}
+
+.hero .button {
+  margin-top: 45.2px;
+}
+
+.section-2 {
+  height: 920px;
+  background-image: url("../images/bg-2.svg");
+}
+
+.about {
+  padding-top: 178px; /* отступ внутри сверху: от верха секции до текста */
+  padding-left: 240px; /* отступ внутри слева: от края секции до текста */
+}
+
+.label {
+  font-size: 15px;
+  color: #3a1322;
+  opacity: 0.8;
+}
+
+.title {
+  font-family:
+    "Rubik_Mono_One", sans-serif; /* шрифт заголовков; запасной — любой без засечек */
+  font-size: 48px;
+  color: #3a1322;
+  margin-top: 31.8px;
+}
+
+.about-text {
+  font-size: 19px;
+  color: #3a1322;
+  width: 388px;
+  line-height: 27.6px;
+  margin-top: 41.4px;
+}
+
+.reasons li {
+  font-size: 18px;
+  color: #3a1322;
+  margin-bottom: 32px;
+  padding-left: 40px; /* отступ внутри слева: место под значок полукруга, четверти, квадрата */
+}
+
+/* «+» значит «сразу после»: label, который стоит сразу после абзаца .about-text.
+   Так отступ получает только второй label («ПОЧЕМУ К НАМ»), а первый («01 О ПРОЕКТЕ») не трогаем */
+.about-text + .label {
+  margin-top: 89.4px;
+}
+
+.reasons {
+  margin-top: 50px;
+}
