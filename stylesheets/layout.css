@@ -275,3 +275,42 @@ body {
   opacity: 0.7;
   margin-top: 520px;
 }
+
+.section-7 {
+  height: 380px;
+  background-image: url("../images/bg-7.svg");
+}
+
+.footer {
+  padding-top: 88px;
+  padding-left: 470px;
+}
+
+.footer-col {
+  display: inline-block; /* колонки встают в ряд */
+  vertical-align: top; /* выравниваются по верхнему краю */
+  width: 220px; /* ширина колонки: X «РЕЖИМ РАБОТЫ» - X «АДРЕС» */
+}
+
+.footer-title {
+  color: #cfe07a;
+  font-size: 15px;
+}
+
+/* через запятую: одинаковый стиль для текста колонок и пунктов вопросов */
+.footer-text,
+.faq {
+  margin-top: 22.2px;
+  color: #f6e9d6;
+  font-size: 16px;
+  opacity: 0.85;
+  line-height: 23.2px;
+}
+
+.copyright {
+  color: #f6e9d6;
+  font-size: 14px;
+  opacity: 0.5;
+  margin-left: 200px;
+  margin-top: 140.6px;
+}
