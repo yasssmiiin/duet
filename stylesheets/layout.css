@@ -149,3 +149,52 @@ body {
   color: #f6e9d6;
   margin-top: 31.8px;
 }
+
+.section-4 {
+  height: 1420px;
+  background-image: url("../images/bg-4.svg");
+}
+
+.history {
+  padding-top: 108px;
+  padding-left: 200px;
+}
+
+.history .label {
+  color: #cfe07a;
+  opacity: 1;
+}
+
+.history .title {
+  color: #f6e9d6;
+  margin-top: 31.8px;
+}
+
+.history-text {
+  color: #f6e9d6;
+  font-size: 19px;
+  opacity: 1;
+  margin-top: 61.4px;
+  line-height: 27.6px;
+}
+
+.quote {
+  font-family: "Rubik_Mono_One", sans-serif;
+  font-size: 28px;
+  line-height: 38px;
+  color: #3a1322;
+  height: 150px;
+  border-left: 8px solid #ec6c9b;
+  padding-left: 32px;
+  padding-top: 15px;
+  margin-left: 66px;
+  margin-top: 603px;
+}
+
+.quote-author {
+  margin-left: 106px;
+  margin-top: 47px;
+  font-size: 16px;
+  color: #3a1322;
+  opacity: 0.6;
+}
